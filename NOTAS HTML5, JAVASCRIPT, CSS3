@@ -1,0 +1,11 @@
+NOTAS HTML5, JAVASCRIPT, CSS3
+
+Si pones <p id ="articulo"> Texto </p> , en el CSS tienes que 
+referenciarlo asi --> p#articulo{ color: red; }
+
+Si pones <p class ="articulo"> Texto </p> , en el CSS tienes que 
+referenciarlo asi --> .articulo{ color: red; }
+
+Con las clases puedes crear referencias más complejas —> p.articulo (Solo afecta a los párrafos que tengan como clase “articulo”
+
+Lo más comido es poner “names”, tal que así —> <p name ="articulo"> Texto </p> , en el CSS tendrías que referenciarlo así —> p[name=“articulo”] { color red; }

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	background-color:#33C;
+	text-align:right;
+}
+
+header figure {
+	float:left;
+	margin-left:100px;
+}
+
+header figure img{
+	width:60px;
+	height:60px;
+	border-radius:25%;
+}
+
+header h1{
+	float:left;
+	font-size:1.6em;
+	color:#FFF;
+	display:block;
+	margin: 7px 80px 0px 50px;
+	padding:0px;
+}
+header nav ul{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	list-style:none;
+}
+
+header nav ul li a {
+	text-decoration:none;
+	font-weight:bold;
+	color:#f7f7f7;
+	padding:15px 25px;
+}
+
+header nav ul li {
+	height:35px;
+	margin-top:10px;
+	width:100%;
+	display:inline-block;
+	border:1px solid black;
+}
+
+/*section article{
+	width:200px;
+	height:200px;
+}*/
+
+/*section article {
+	color:red;
+	background-color:yellow;
+	text-align:center;
+	width:200px;
+	height:200px;
+	border: 1px solid red;
+	display:inline-block;
+	margin:5px 2px 5px 3px;
+	position:relative;
+	
+}
+
+section article p{
+	position:absolute;
+	border: 1px solid red;
+	padding: 10px;
+	top: 40px;
+}*/
+
+section article.receta{
+border: 5px solid green;
+display:inline-block;
+position:relative;
+vertical-align:top;
+border-radius:0px 0px 15px 15px;
+margin: 50px 0px 20px 10%;
+width:85%;
+font-size:1.2em;
+
+}
+
+
+body{
+	font-family: 'Gochi Hand', cursive;
+	font-size: 16px;
+}
+
+
+
+@media screen and (min-width: 480px){
+	section article{
+		background-color:#3F0;
+	}
+	header nav ul li {
+		width:22%;
+	}
+}
+
+@media screen and (min-width: 767px){
+	section article{
+		background-color:#FF0;
+	}
+	header nav ul li {
+		width:8%;
+	}
+	section article.receta{
+		width:40%;
+		margin: 50px 3% 20px 6%;
+	}
+}
+
+@media screen and (min-width: 950px){
+	section article{
+		background-color:#F90;
+	}
+	section article.receta{
+		width:26%;
+		margin: 50px 1% 20px 5%;
+	}
+}
